@@ -8,7 +8,7 @@ public class FrequencyOfElements {
         System.out.println("Enter array size: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
-        int[] fre = new int[100];
+        int[] fre = new int[n];
         System.out.println("Enter array Elements: ");
         for(int i=0;i<n;i++) {
             arr[i] = sc.nextInt();
